@@ -7,6 +7,7 @@ public class CoinDisplay : MonoBehaviour
 {
     [SerializeField] int coins = 100;
     Text coinText;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,10 @@ public class CoinDisplay : MonoBehaviour
     private void UpdateDisplay()
     {
         coinText.text = coins.ToString();
+    }
+    public bool HaveEnoughCoins(int amount)
+    {
+        return coins >= amount;
     }
     public void AddCoins(int amount)
     {

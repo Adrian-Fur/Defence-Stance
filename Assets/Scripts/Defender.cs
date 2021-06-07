@@ -10,4 +10,8 @@ public class Defender : MonoBehaviour
     {
         FindObjectOfType<CoinDisplay>().AddCoins(amount);
     }
+    public int GetCoinsCost()
+    {
+        return coinCost;
+    }
 }
