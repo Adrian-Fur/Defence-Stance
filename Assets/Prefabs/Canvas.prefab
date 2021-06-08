@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db531cc896d77f4ca065a9cb500bb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 100
+  coins: 1000
 --- !u!1 &4931911210340144337
 GameObject:
   m_ObjectHideFlags: 0
