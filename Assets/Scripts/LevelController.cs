@@ -22,7 +22,7 @@ public class LevelController : MonoBehaviour
     public void AttackerKilled()
     {
         numberOfAttackers--;
-        if(numberOfAttackers <= 0 && levelTimerFinished)
+        if(numberOfAttackers <= 0 && levelTimerFinished == true)
         {
             StartCoroutine(HandleWinCondition());
         }
