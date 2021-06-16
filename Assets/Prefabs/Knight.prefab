@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f44bc9fe5c559c8479be651bcd87ec1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinCost: 200
+  coinCost: 150
 --- !u!114 &805735596364199062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02efc02f43ed7a140aa5ffd879d37824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 50
   deathVFX: {fileID: 0}
 --- !u!1 &805735597724035110
 GameObject:
